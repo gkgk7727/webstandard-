@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{outline: 1px solid red;}
+    .div .uppermost{
+      margin:0%;
+      background-color: royalblue;
+ 
+    }
+    .container-upm .main1{
+      box-sizing: border-box;
+      float: right;
+      width:  70px;
+      z-index: 1;
+     
+    }
+    .container-upm .main2{
+      box-sizing: border-box;
+      float: right;
+      width:  50px;
+      z-index: 50;
+    }
+    .header .container-h{
+      box-sizing: content-box;
+      height: 200px;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <div class="uppermost">
+    <div class="container container-upm">
+  
+      <div class="main1">회원가입</div>
+      <div class="main2">로그인</div>
+    </div>
+  </div>
+  <div class="header">
+    <br>
+    <div class="container container-h">?
+      <!---->
+    </div>
+  
+  </div>
+  <div class="nav">
+    <div class="container container-n">
+      <ul class="clearfix">
+        <label><a href="="#">menu1</a></label>
+        <label><a href="="#">menu2</a></label>
+        <label><a href="="#">menu3</a></label>
+        <label><a href="="#">menu4</a></label>
+        <label><a href="="#">menu5</a></label>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="container clearfix">
+      <div class="sidebar">1</div>
+    </div>
+  </div>
+  <div class="content">
+    <from>
+      <p>회원가입</p>
+      <ul>
+        <label for="user_id">아이디</label></li>
+        <input type="text" id="user_id" style="width:327px;height:20px;"></li>
+        <label for="user_pw">비밀번호</label></li>
+        <input type="password" id="user_pw" style="width:327px;height:20px;"></li>
+        <label for="user_pwc">비밀번호확인</label></li>
+        <input type="password confimation" id="user_pwc" style="width:327px;height:20px;"></li>
+        <label for="user_pn">전화번호</label></li>
+        <input type="phone number" id="user_pn" style="width:327px;height:20px;"></li>
+        <label for="user_n">명칭</label></li>
+        <input type="name" id="user_n" style="width:327px;height:20px;"></li>
+        <label for="user_ad">주소</label></li>
+        <input type="adress" id="user_ad" style="width:327px;height:20px;"></li>
+        
+        <hd>성별</hd>
+        <label><input type="radio" mame="성별" value="1">남</label>
+        <label><input type="radio" mame="성별" value="2">여</label>
+        <p>
+          <span>관심분야</span>
+          <label><input type="checkbox" name="read" valu="1">독서</label>
+          <label><input type="checkbox" name="sport" valu="2">운동</label>
+          <label><input type="checkbox" name="music" valu="3">음악감상</label>
+          <label><input type="checkbox" name="game" valu="4">게임</label>
+        </p>
+        <button name="회원가입" style="width:327px;height:20px;">회원 가입</button>
+      <div class="footer">
+        <div class="copyright">
+          Copyright(c) 울산KH정보교육원 All Right Reserved
+        </div>
+      </div>  
+      </ul>
+    </from>
+  </div>
+</body>
+</html>

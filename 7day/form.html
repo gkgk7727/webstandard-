@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <style>
+    body{margin: 0 auto;width: 300px; }/*전체 틀 정렬 마진 0는 가운데*/
+    *{outline: 1px solid red;}
+    .far.fa-envelope{
+      font-size: 5em;
+      color: pink;
+    }
+    h1{
+      text-align: center;
+    font-size: 50px;
+    font-weight:10px bold;
+    color: #19CE60; 
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- <i class="far fa-envelope"></i>
+  <img src="envelope-regular.svg" width="250px" height="250px" alt=""> -->
+  <section>
+    <h1>NAVER</h1>
+  </section>
+
+  <section>
+    <from name="login" action="index.html" method="post">
+      아이디<br>
+    <input type="text" name="user-id" placeholder="@naver,com">
+    <br>
+    비밀번호<br>
+    <input type="password" name="user_pw1" value="1111"><br>
+    비밀번호 재확인<br>
+    <input type="password" name="user_pw2" value="1111"><br>
+    이름<br>
+    <input type="text" name="user_name" value=""><br>
+    생년월일<br>
+    <select name="year">
+      <option value="">년(4자)</option>
+      <option value="1990">1990</option>
+      <option value="1991">1991</option>
+      <option value="1992">1992</option>
+      <option value="1993">1993</option>
+      <option value="1994">1994</option>
+      <option value="1995">1995</option>
+      <option value="1996">1996</option>
+    </select>
+    <select name="month">
+      <option value="">월</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+     </select>
+     <select name="day">
+       <option value="">일</option>
+       <option value="1"">"1"</option>
+       <option value="2"">"2"</option>
+       <option value="3"">"3"</option>
+       <option value="4"">"4"</option>
+       <option value="5"">"5"</option>
+       <option value="6"">"6"</option>
+       <option value="7"">"7"</option>
+       <option value="8"">"8"</option>
+       <option value="9"">"9"</option>
+       <option value="10">"10"</option>
+       <option value="11">"11"</option>
+       <option value="12">"12"</option>
+       <option value="13">"13"</option>
+       <option value="14">"14"</option>
+       <option value="15">"15"</option>
+       <option value="16">"16"</option>
+       <option value="17">"17"</option>
+       <option value="18">"18"</option>
+       <option value="19">"19"</option>
+       <option value="20">"20"</option>
+       <option value="21">"21"</option>
+       <option value="22">"22"</option>
+       <option value="23">"23"</option>
+       <option value="24">"24"</option>
+       <option value="25">"25"</option>
+       <option value="26">"26"</option>
+       <option value="27">"27"</option>
+       <option value="28">"28"</option>
+       <option value="29">"29"</option>
+       <option value="30">"30"</option>
+       <option value="31">"31"</option>
+     </select>
+    <br>
+     성별<br>
+    <select name="성별" style="width:177px;height:20px;">
+      <option value="gender1" selected>남</option>
+      <option value="gender2" selected>여</option>
+    </select>
+     <br><br>
+     본인 확인 이메일(선택)<br>
+     <input type="email" name="user_e" placeholder="선택입력">
+     <br>
+     휴대전화<br>
+     <select name="휴대전화"style="width:177px;height:20px;">
+       <option value="phone" selected>대한민국+82</option>
+       <option value="phone" selected>대한민국+82</option>
+     </select>
+     <br>
+     <input type="text" name="user_phone" placeholder="전화번호입력" style="width:66px;height:20px;">
+     <input type="button" name="certification" value="인증번호받기">
+     <br>
+     <input type="text" name="certification" placeholder="인증번호를 입력하세요">
+     <br>
+     <button name="가입하기" style="width:177px;height:20px;">가입하기
+    </button>
+    
+     
+  </from>  
+  </section>
+</body>
+</html>

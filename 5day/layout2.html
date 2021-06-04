@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{outline: 1px solid rebeccapurple;}
+    html,body{height: 100%;}
+    body{margin: 0;}
+    div{
+      border: 5px solid #000;
+      height: 25%; 
+      box-sizing: border-box;
+      text-transform:uppercase;
+
+    }
+    div.box1,div.box3{
+      background-color: rgb(72, 95, 48);
+    }
+
+    /*div.box1,div.box2,div.box3{
+      border-bottom: 0px solid #fff;
+    }*/
+    .bb0px{
+      border-bottom: 0 solid #000;
+    }
+   /* .box1{
+      text-align: center;/*가로배치*/
+      /*viewport-fit: middle;/*세로배치*/
+    }
+    .wrapper{
+      display: table; 
+      width: 100%;
+      border-width:0;
+    }
+    .wrapper .box1{
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+
+    }
+
+    /*div.box1{
+      position: relative;
+      background-color: cadetblue;
+      padding: 10% 50%;    
+    }
+    div.box3{  
+      position: relative;
+      background-color: cadetblue;}*/
+  </style>
+</head>
+<body><!--컨텐츠 만큼의 높이를 가짐-->
+  <div class="wrapper">
+    <div class="box box1 bb0px">box1</div>
+  </div>
+  <div class="box box2 bb0px">box2</div>
+  <div class="box box3 bb0px">box3</div>
+  <div class="box box4">box4</div>
+ 
+</body>
+</html>
